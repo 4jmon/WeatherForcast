@@ -23,8 +23,8 @@ this.city = "";
   	
   }
 
-searchWeather(t:string){
-	this.city  =t;
+searchWeather(){
+	
 	console.log("Weather is being searched for "+this.city);
 	console.log(this.city);
   if(this.city!=""){

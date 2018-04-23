@@ -5,8 +5,8 @@
   </h1> 
 </div>
 <form>
-<span><input type="text" #t name="city" placeholder="Search a city"></span>
-<span><input type="submit" (click)="searchWeather(t.value)" value="Search"></span>
+<span><input type="text" [(ngModel)]="city" name="city" placeholder="Search a city"></span>
+<span><input type="submit" (click)="searchWeather()" value="Search"></span>
 
 </form>
 
