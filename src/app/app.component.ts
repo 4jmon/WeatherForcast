@@ -27,6 +27,7 @@ searchWeather(t:string){
 	this.city  =t;
 	console.log("Weather is being searched for "+this.city);
 	console.log(this.city);
+  if(this.city!=""){
 	this.dservice.getWetherData(this.city).subscribe((res)=>{
 		console.log(JSON.stringify(res));
 		let midday = (parseInt(res.list[0].main.temp)-273).toString() + "   C"; //according to the json
@@ -37,7 +38,7 @@ searchWeather(t:string){
 		
 		//console.log(res.list[0].main.temp);
 	});
-
+  }
 
 }
 }
