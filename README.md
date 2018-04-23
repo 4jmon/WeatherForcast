@@ -2,14 +2,13 @@
 link to repo: https://github.com/4jmon/WeatherForcast
 
 
-clone the repo:  "git clone https://github.com/4jmon/WeatherForcast.git"
-cd WeatherForcast
-npm install
-ng serve
+**clone the repo:  "git clone https://github.com/4jmon/WeatherForcast.git"
+**cd WeatherForcast
+**npm install
+**ng serve
 
-
+## incase ng does not work
 install angular-cli 
-
 "npm  install  -g @angular/cli"
 
 ## You need to open the chrome in disable security mode
@@ -17,9 +16,11 @@ Got  here :  "C:\Program Files (x86)\Google\Chrome\Application" open CMD using (
 run this command : 
 " chrome.exe  --disable-web-security"
 
+*It will open a chrome browser and we will be using this.
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/` in the browser that you have opened(disabled security). 
 
 
 ## Running unit tests
