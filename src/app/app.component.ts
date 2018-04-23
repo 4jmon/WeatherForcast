@@ -10,7 +10,7 @@ import {DataService} from './service/data.service';
 })
 export class AppComponent implements OnInit {
   
-title="24 hours weather forecust";
+title="24 hours weather forecast";
 city:string;
 myWeather= []; 
 
