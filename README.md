@@ -28,12 +28,12 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/` in the bro
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via. 
-unit test is written in data.service.spec.ts using karma.
+Run `ng test` to execute the unit tests. 
+unit test is written in data.service.spec.ts using karma for the service. 
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via . It is written using protactor.
+Run `ng e2e` to execute the end-to-end tests . It is written using protactor.
 
 ## You need to open the chrome in disable security mode
 Go to here :  "C:\Program Files (x86)\Google\Chrome\Application" open CMD using (right click + shift)
