@@ -4,7 +4,8 @@ link to repo: https://github.com/4jmon/WeatherForcast
 
 clone the repo:  "git clone https://github.com/4jmon/WeatherForcast.git"
 cd WeatherForcast
-
+npm install
+ng serve
 
 
 install angular-cli 
