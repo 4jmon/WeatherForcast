@@ -15,11 +15,11 @@ install angular-cli
 "npm  install  -g @angular/cli"
 
 ## You need to open the chrome in disable security mode
-Got  here :  "C:\Program Files (x86)\Google\Chrome\Application" open CMD using (right click + shift)
+Go  here :  "C:\Program Files (x86)\Google\Chrome\Application" open CMD using (right click + shift)
 run this command : 
-" chrome.exe  --disable-web-security --user-data-dir"
+"chrome.exe  --disable-web-security --user-data-dir"
 
-*It will open a chrome browser and we will be using this. You can use other browser too.
+*It will open a chrome browser and we will be using the instance of the chrome now on. You can use other browser too.
 
 ## Development server
 
@@ -37,7 +37,7 @@ unit test is written in data.service.spec.ts using karma for the service and in 
 Run `ng e2e` to execute the end-to-end tests . It is written using protactor.
 
 ## You need to open the chrome in disable security mode
-Go to here :  "C:\Program Files (x86)\Google\Chrome\Application" open CMD using (right click + shift)
+Go here :  "C:\Program Files (x86)\Google\Chrome\Application" open CMD using (right click + shift)
 run this command : 
 " chrome.exe  --disable-web-security  --user-data-dir"
 
