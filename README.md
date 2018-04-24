@@ -1,4 +1,4 @@
-# WeatherForcast
+# WeatherForecast
 link to repo: https://github.com/4jmon/WeatherForcast
 
 
@@ -29,7 +29,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/` in the bro
 ## Running unit tests
 
 Run `ng test` to execute the unit tests. 
-unit test is written in data.service.spec.ts using karma for the service. 
+unit test is written in data.service.spec.ts using karma for the service and in app.component.spec.ts for the appcomponent.
+
 
 ## Running end-to-end tests
 
@@ -42,7 +43,7 @@ run this command :
 
 The reason being chrome will not allow http.get without the header (Corejs problem).
 
-The www.openweathermap.org service api has disabled (Allow-Headers)
+The www.openweathermap.org service api has disabled (Access-Control-Allow-Origin)
 
 www.openweathermap.org provides a sample api not a live one.
 

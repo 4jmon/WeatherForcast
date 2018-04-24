@@ -1,6 +1,6 @@
 import { Component,OnInit } from '@angular/core';
 import {Weather} from '../model/weather';
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
 
 import {DataService} from './service/data.service';
 @Component({
@@ -15,7 +15,7 @@ city:string;
 myWeather= []; 
 
 constructor(private dservice:DataService){
-	console.log("dataservice ran!")
+	console.log("App is Created!")
 }
   ngOnInit(){
 //  	this.myWeather.push(new Weather("London, UK", "12 c","16 c","13 c","10 c"));
