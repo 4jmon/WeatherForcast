@@ -1,10 +1,10 @@
 # WeatherForecast
-link to repo: https://github.com/4jmon/WeatherForcast
+link to repo: https://github.com/4jmon/WeatherForecast
 
 
-*clone the repo:  "git clone https://github.com/4jmon/WeatherForcast.git"
+*clone the repo:  "git clone https://github.com/4jmon/WeatherForecast.git"
 
-*cd WeatherForcast
+*cd WeatherForecast
 
 *npm install
 
