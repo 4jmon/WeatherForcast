@@ -41,7 +41,7 @@ Go here :  "C:\Program Files (x86)\Google\Chrome\Application" open CMD using (ri
 run this command : 
 " chrome.exe  --disable-web-security  --user-data-dir"
 
-The reason being chrome will not allow http.get without the header (Corejs problem).
+The reason being chrome will not allow http.get without the header (CORS problem).
 
 The www.openweathermap.org service api has disabled (Access-Control-Allow-Origin)
 
